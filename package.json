@@ -9,7 +9,7 @@
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss public/css/style.comp.css",
     "compress:css": "node-sass public/css/style.prefix.css public/css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "build:css": "npm-run-all compile:sass compress:css"
   },
   "author": "Jonas",
   "license": "ISC",
